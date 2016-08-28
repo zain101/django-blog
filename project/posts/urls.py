@@ -9,3 +9,4 @@ urlpatterns = [
     url(r'list',  views.posts_list, name='list' ),
     url(r'^$',  views.posts_list, name='list' ),
 ]
+
